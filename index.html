@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Travetia is a video and photography studio.we help you to shout your bussines and your art works loudly by making a pro video teaser.you can also have wonderful pictures and use it everywhere you want from magazines to instagram page"
+    />
+
+    <!-------------------  Font -------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&family=Mirza:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!----------------- Fontawesome kit -------------------->
+    <script
+      src="https://kit.fontawesome.com/fe44cdec3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!------------------- MDB Css -------------------------->
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!--------------- Custom Css ------------------------->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-------------------- Title and icon ----------------->
+    <link rel="icon" href="img/tab-icon-removebg-preview.png" />
+
+    <title>Travetia</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+              <img
+                src="img/logo.png"
+                height="45"
+                alt="Travetia Logo"
+                loading="lazy"
+              />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">گالری</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">تعرفه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">تماس با ما</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+
+    <main>
+      <!-- Video Carousel -->
+      <section id="hero-section">
+        <div
+          id="introCarousel"
+          class="carousel slide carousel-fade"
+          data-mdb-ride="carousel"
+        >
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-mdb-target="#introCarousel"
+              data-mdb-slide-to="0"
+              class="active"
+            ></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+            <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+          </ol>
+
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <video playsinline autoplay muted loop>
+                <source class="h-50" src="img/Video.mp4" type="video/mp4" />
+              </video>
+              <div class="mask">
+                <div
+                  class="d-flex justify-content-center align-items-center h-100"
+                >
+                  <div class="text-white text-center">
+                    <h1 class="mb-3">با ما نمایان شوید</h1>
+                    <h4 class="mb-4">ساخت تیزرهای متفاوت برای کسب و کار شما</h4>
+                    <a class="btn btn-light btn-lg m-2" href="#footer"
+                      >تماس با ما</a
+                    >
+                    <a class="btn btn-outline-light btn-lg m-2" href="#gallery"
+                      >نمونه پروژه ها</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item carousel-item--2">
+              <video
+                style="min-width: 100%; min-height: 100%"
+                playsinline
+                autoplay
+                muted
+                loop
+              >
+                <source
+                  class="h-100"
+                  src="img/Stripes-[remix].mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="mask bg-video--2">
+                <div
+                  class="d-flex justify-content-center align-items-center h-100"
+                >
+                  <div class="text-white text-center"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+              <video
+                style="min-width: 100%; min-height: 100%"
+                playsinline
+                autoplay
+                muted
+                loop
+              >
+                <source
+                  class="h-100"
+                  src="img/A Female Video Editor In A Production Studio-mp4.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="mask">
+                <div
+                  class="d-flex justify-content-center align-items-center h-100"
+                >
+                  <div class="text-white text-center">
+                    <h2>ساخت تبلیغات برای انواع کسب و کار ها</h2>
+                    <a class="btn btn-success btn-lg m-4" href="#gallery"
+                      >نمونه پروژه</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Inner -->
+
+          <!-- Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#introCarousel"
+            role="button"
+            data-mdb-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#introCarousel"
+            role="button"
+            data-mdb-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <!-- Video Carousel -->
+
+      <!-- Credits -->
+      <section id="credits">
+        <div class="container">
+          <img class="credits-img" src="img/bizinsider.png" alt="logos" />
+          <img class="credits-img" src="img/mashable.png" alt="logos" />
+          <img class="credits-img" src="img/TechCrunch.png" alt="logos" />
+          <img class="credits-img" src="img/tnw.png" alt="logos" />
+        </div>
+      </section>
+      <!-- Credits -->
+
+      <!--Features -->
+      <section id="features" class="reveal">
+        <div class="row g-4 justify-content-center">
+          <div class="col-sm-3 feature">
+            <div class="card h-100">
+              <img
+                src="img/sony.jpg"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <i class="fa-solid fa-video"></i>
+                <h5>بهترین برند تجهیزات فیلمبرداری و عکاسی</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 feature">
+            <div class="card h-100">
+              <img
+                src="img/storyboard.jpg"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <i class="fa-solid fa-receipt"></i>
+                <h5>استوری برد جذاب</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 feature">
+            <div class="card h-100">
+              <img
+                src="img/adobe-md.jpg"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h5>ادیت حرفه ای و سریع</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 feature">
+            <div class="card h-100">
+              <img
+                src="img/creative.jpg"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h5>ایده های خلاقانه و متفاوت</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Features -->
+
+      <!-- Gallery -->
+      <section id="gallery">
+        <!-- Video-gallery -->
+        <div class="container">
+          <h2 class="mb-5">گالری ویدیو</h2>
+          <!-- Video cover -->
+          <div class="row gy-5">
+            <div class="col-lg-6 col-sm-6 mb-lg-0 reveal fade-left">
+              <div
+                class="bg-image hover-overlay ripple hover-shadow shadow-5-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-1.webp"
+                  class="w-100"
+                />
+                <a
+                  class="video-modal"
+                  href="#!"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal1"
+                  data-src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                >
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                  >
+                    <div
+                      class="d-flex justify-content-center align-items-center h-100"
+                    >
+                      <p class="text-white mb-0">بوتیک</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6 mb-lg-0 reveal fade-right">
+              <div
+                class="bg-image hover-overlay ripple hover-shadow shadow-5-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
+                  class="w-100"
+                />
+                <a
+                  class="video-modal"
+                  href="#!"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal2"
+                  data-src="https://www.aparat.com/video/video/embed/videohash/pCq4k/vt/frame"
+                >
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                  >
+                    <div
+                      class="d-flex justify-content-center align-items-center h-100"
+                    >
+                      <p class="text-white mb-0">کافه</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 mb-lg-0 reveal fade-bottom">
+              <div
+                class="bg-image hover-overlay ripple hover-shadow shadow-5-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
+                  class="w-100"
+                />
+                <a
+                  class="video-modal"
+                  href="#!"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal3"
+                  data-src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                >
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                  >
+                    <div
+                      class="d-flex justify-content-center align-items-center h-100"
+                    >
+                      <p class="text-white mb-0">هتل</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 mb-lg-0 reveal fade-bottom">
+              <div
+                class="bg-image hover-overlay ripple hover-shadow shadow-5-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
+                  class="w-100"
+                />
+                <a
+                  class="video-modal"
+                  href="#!"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal2"
+                  data-src="https://www.aparat.com/video/video/embed/videohash/pCq4k/vt/frame"
+                >
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                  >
+                    <div
+                      class="d-flex justify-content-center align-items-center h-100"
+                    >
+                      <p class="text-white mb-0">کافه</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 mb-lg-0 reveal fade-bottom">
+              <div
+                class="bg-image hover-overlay ripple hover-shadow shadow-5-strong rounded"
+                data-ripple-color="light"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
+                  class="w-100"
+                />
+                <a
+                  class="video-modal"
+                  href="#!"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal3"
+                  data-src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                >
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                  >
+                    <div
+                      class="d-flex justify-content-center align-items-center h-100"
+                    >
+                      <p class="text-white mb-0">هتل</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="more" href="https://www.aparat.com/TRAVETIA" target="_blank"
+            >بیشتر</a
+          >
+          <!-- Video cover -->
+
+          <!-- Gallery Modals -->
+          <!-- Modal 1 -->
+          <div
+            class="modal fade"
+            id="exampleModal1"
+            tabindex="-1"
+            aria-labelledby="exampleModal1Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    id="video1"
+                    src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                    allowfullscreen="true"
+                    webkitallowfullscreen="true"
+                    mozallowfullscreen="true"
+                  ></iframe>
+                </div>
+
+                <div class="text-center py-3">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-mdb-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 2 -->
+          <div
+            class="modal fade"
+            id="exampleModal2"
+            tabindex="-1"
+            aria-labelledby="exampleModal2Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    id="video2"
+                    src="https://www.aparat.com/video/video/embed/videohash/pCq4k/vt/frame"
+                    allowfullscreen="true"
+                    webkitallowfullscreen="true"
+                    mozallowfullscreen="true"
+                  ></iframe>
+                </div>
+
+                <div class="text-center py-3">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-mdb-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 3 -->
+          <div
+            class="modal fade"
+            id="exampleModal3"
+            tabindex="-1"
+            aria-labelledby="exampleModal3Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    id="video3"
+                    src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                    title="YouTube video"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
+                <div class="text-center py-3">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-mdb-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 4 -->
+          <div
+            class="modal fade"
+            id="exampleModal3"
+            tabindex="-1"
+            aria-labelledby="exampleModal3Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    id="video3"
+                    src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                    title="YouTube video"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
+                <div class="text-center py-3">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-mdb-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal 5 -->
+          <div
+            class="modal fade"
+            id="exampleModal3"
+            tabindex="-1"
+            aria-labelledby="exampleModal3Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    id="video3"
+                    src="https://www.aparat.com/video/video/embed/videohash/ImFg0/vt/frame"
+                    title="YouTube video"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
+                <div class="text-center py-3">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-mdb-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery Modals -->
+        </div>
+        <!-- Video gallery -->
+
+        <!-- Picture gallery -->
+        <div class="container">
+          <h2 class="mb-5">گالری عکس</h2>
+          <!-- Gallery -->
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-lg-0 reveal">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+              />
+
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape"
+
+              />
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-lg-0 reveal fade-left">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Mountains in the Clouds"
+              />
+
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+              />
+            </div>
+
+            <div class="col-md-4 mb-lg-0 reveal">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea"
+              />
+
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                class="myImg w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park"
+              />
+            </div>
+            <a
+              class="more"
+              href="https://www.instagram.com/h2o.graphy"
+              target="_blank"
+              >بیشتر</a
+            >
+          </div>
+        </div>
+        <!-- Picture gallery -->
+      </section>
+      <!-- Gallery -->
+
+      <!-- Pricing -->
+      <section id="pricing" dir="rtl">
+        <h2>تعرفه ساخت تیزر</h2>
+        <div class="row justify-content-center gy-4 mt-4">
+          <div class="pricing-item col-md-3 col-sm-6 flex-fill">
+            <div class="card text-black h-100">
+              <img src="img/adobe-sm.jpg" alt="Apple Computer" />
+              <div class="card-body card-body--1">
+                <div class="text-center">
+                  <h5 class="card-title">پلن اقتصادی</h5>
+                  <p class="text-muted mb-4">مناسب کسب و کارهای کوچک</p>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <span>تجهیزات</span><span>دوربین</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>صداگذاری</span><span>ندارد</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>زمان کلیپ</span><span>یک دقیقه</span>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between total font-weight-bold mt-4"
+                >
+                  <span>قیمت هر دقیقه</span
+                  ><span class="price-number" dir="rtl">300 هزارتومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-item col-md-3 col-sm-6 flex-fill">
+            <div class="card text-black h-100">
+              <img src="img/adobe-sm.jpg" alt="Apple Computer" />
+              <div class="card-body card-body--2">
+                <div class="text-center">
+                  <h5 class="card-title">پلن استاندارد</h5>
+                  <p class="text-muted mb-4">مناسب برای انواع مشاغل</p>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <span>تجهیزات </span><span>دوربین + لرزه گیر</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>صداگذاری</span><span>دارد</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>زمان کلیپ</span><span>یک الی سه دقیقه</span>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between total font-weight-bold mt-4"
+                >
+                  <span>قیمت هر دقیقه</span
+                  ><span class="price-number" dir="rtl">500 هزارتومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-item col-md-3 flex-fill">
+            <div class="card text-black h-100">
+              <img src="img/adobe-sm.jpg" alt="Apple Computer" />
+              <div class="card-body card-body--3">
+                <div class="text-center">
+                  <h5 class="card-title">پلن حرفه ای</h5>
+                  <p class="text-muted mb-4">متفاوت دیده شوید</p>
+                </div>
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <span>تجهیزات </span><span>دوربین + لرزه گیر + نور</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>صداگذاری</span><span>دارد</span>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <span>زمان کلیپ</span><span dir="rtl">+5 دقیقه</span>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between total font-weight-bold mt-4"
+                >
+                  <span>قیمت هر دقیقه</span
+                  ><span class="price-number" dir="rtl">700 هزارتومان</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing -->
+
+      <!-- CAT section -->
+      <section id="cta-section">
+        <div class="cta p-5 text-center bg-image rounded-3">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h2 class="mb-3">یک قدم تا دیده شدن</h2>
+                <h4 class="mb-5">تبلیغات مهم ترین عامل موفق کسب و کار شماست</h4>
+                <a
+                  class="cta-btn btn btn-light btn-lg"
+                  href="#!"
+                  role="button"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal"
+                  >تماس با ما</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CAT section -->
+    </main>
+
+    <footer id="footer" class="bg-light text-center">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="social-icons mb-4">
+          <!-- Telegram -->
+          <a
+            class="social-btn btn btn-primary btn-floating m-1"
+            style="background-color: #0088cc"
+            href="https://telegram.me/travetia"
+            role="button"
+            target="_blank"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="social-btn btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/travetia"
+            role="button"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+
+          <!-- Whatsapp -->
+          <a
+            class="social-btn whatsapp btn btn-primary btn-floating m-1"
+            style="background-color: #25d366"
+            href="#!"
+            role="button"
+            data-mdb-toggle="modal"
+            data-mdb-target="#exampleModal"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            برای تماس با ما میتوانید با کلیک بر روی هرکدام از آیکون های بالا از
+            طریق تلگرام ، واتس اپ یا اینساگرام در تماس باشید و یا با شماره تلفن
+            <span class="phone-number">09365788502</span> تماس بگیرید
+          </p>
+        </section>
+        <!-- Section: Text -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Travetia</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- Modals -->
+
+    <!-- contact modal -->
+    <div
+      class="modal top fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-mdb-backdrop="true"
+      data-mdb-keyboard="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Picture gallery Modal -->
+    <div id="picModal" class="pic-modal">
+      <span class="picModal-close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+    <!---------------------- Scripts ---------------------------->
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

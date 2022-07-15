@@ -1,0 +1,415 @@
+/* General */
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Mirza", cursive;
+  text-align: center;
+}
+
+/* Buttons */
+
+.btn {
+  font-size: 1.4rem;
+}
+
+.btn-light:hover {
+  background-color: rgb(14, 107, 14);
+  color: #fff;
+}
+
+/* Navbar */
+.collapse {
+  justify-content: space-between;
+}
+.navbar-nav {
+  font-size: 1.4rem;
+  gap: 10px;
+}
+/* before scroll */
+.navbar-toggler {
+  color: rgb(217, 217, 217) !important;
+}
+.scroll-darker {
+  background-color: rgba(34, 34, 34, 0.968);
+}
+
+/*navbar scrolled*/
+
+.scroll {
+  background-color: rgba(255, 255, 255, 0.433);
+}
+.scroll .navbar-toggler {
+  color: #000 !important;
+}
+.scroll .nav-link {
+  color: #23221c !important;
+}
+.scroll .nav-link:hover {
+  color: #1a366d !important;
+}
+
+/* navbar is scrolled and then it's opened */
+.scroll-darker.scroll {
+  background-color: rgba(34, 34, 34, 0.968);
+}
+.scroll-darker.scroll .navbar-toggler {
+  color: rgb(217, 217, 217) !important;
+}
+.scroll-darker.scroll .nav-link {
+  color: rgb(217, 217, 217) !important;
+}
+.scroll-darker .nav-link:hover {
+  color: #565429 !important;
+}
+
+/* Video Carousel */
+
+.mask {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+}
+.bg-video--2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.carousel-item {
+  height: 100vh;
+}
+
+video {
+
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+}
+/* credits */
+
+#credits {
+  padding: 3% 0;
+  background-color: #e5e4cd;
+}
+
+.credits-img {
+  width: 15%;
+  margin: 2rem;
+}
+
+/* Features */
+
+#features {
+  padding: 7%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 50%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Gallery */
+#gallery {
+  padding: 7% 0;
+  background-color: #e5e4cd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+}
+.more:link,
+.more:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: all 0.4s;
+}
+.more:hover,
+.more:active {
+  transform: scale(1.2);
+  color: black;
+}
+
+/* Pricing */
+#pricing {
+  padding: 7%;
+}
+.card-body p {
+  color: #fff !important;
+}
+.card-body--2 {
+  background-color: rgba(22, 145, 22, 0.7);
+  color: #fff;
+}
+.card-body--3 {
+  background-color: rgba(84, 49, 131, 0.7);
+  color: #fff;
+}
+.card {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card-title {
+  font-size: 1.4rem;
+}
+.card-body {
+  font-size: 1rem;
+  align-items: stretch;
+  padding: 0.8rem;
+}
+
+.price-number {
+  font-weight: 700;
+  color: red;
+}
+
+/* CTA */
+.cta {
+  background-image: url("../img/sony.jpg");
+  height: 400px;
+}
+
+/* Footer */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-number {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* Modal */
+.modal-body {
+  font-size: 1.4rem;
+}
+
+/* Scroll animation */
+.reveal {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(150px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.active.fade-left {
+  animation: fade-left 0.7s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+.active.fade-bottom {
+  animation: fade-bottom 0.6s ease-in;
+}
+/* animations */
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Queries */
+
+@media only screen and (max-width: 992px) {
+  /* credits */
+  .credits-img {
+    margin: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  /* gallery */
+  #gallery {
+    padding: 7% 10%;
+  }
+  /* Buttons */
+  .btn {
+    padding: 0.5rem !important;
+    border-width: 0.01rem;
+  }
+
+  /* features */
+  .feature {
+    width: 50%;
+  }
+
+  /* Pricing */
+  .pricing-item {
+    flex: 0 !important;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  /* hero-section */
+  h2 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.3rem !important;
+    font-size: 1rem;
+  }
+  .carousel-control-prev-icon::after,
+  .carousel-control-next-icon::after {
+    font-size: 1rem;
+  }
+
+  /* CTA */
+  h4 {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* Picture modal */
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.pic-modal {
+  display: none;
+  position: fixed; 
+  z-index: 10; 
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.picModal-close {
+  position: absolute;
+  z-index: 999999999;
+  top: 60px;
+  right: 55px;
+  color: #f1f1f1;
+  font-size: 48px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.picModal-close:hover,
+.picModal-close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
